@@ -90,5 +90,5 @@ else:
         os.system('xargs -n1 pip3 install < ' + piplistLocation)
         print("[+] finished installing from pip.list")
         # Adding pywhat to PATH
-        os.system('export PATH=' + home + '/.local/bin:$PATH')
+        os.system("echo 'export PATH=/home/kali/.local/bin:$PATH' >> ~/.bashrc")
 
