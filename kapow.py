@@ -34,7 +34,7 @@ else:
     print("ERROR: tools.list not exist")
     # Download tools.list from github repo
     print("[+] Downloading..")
-    os.system('curl https://raw.githubusercontent.com/hrmnsio/python/master/kapow/tools.list -o tools.list')
+    os.system('curl https://raw.githubusercontent.com/hrmnsio/kapow.py/master/tools.list -o tools.list')
     if os.path.isfile('tools.list'):
         print("[+] installing..")
         os.system('sudo apt install $(cat tools.list | tr "\n" " ") -y')
@@ -50,7 +50,7 @@ else:
     print("\n[-] ERROR: gh-repos.txt does not exist")
     # Download gh-repos.txt from github repo
     print("[+] Downloading..")
-    os.system('curl https://raw.githubusercontent.com/hrmnsio/python/master/kapow/gh-repos.txt -o gh-repos.txt')
+    os.system('curl https://raw.githubusercontent.com/hrmnsio/kapow.py/master/gh-repos.txt -o gh-repos.txt')
     if os.path.isfile('gh-repos.txt'):
         print("[+] installing..")
         os.system('cd ' + home + '/Tools && pwd && xargs -n1 git clone < ' + ghrepoLocation)
@@ -66,7 +66,7 @@ else:
     print("\n[-] ERROR: tools.txt does not exist")
     # Download tools.txt from github repo
     print("[+] Downloading..")
-    os.system('curl https://raw.githubusercontent.com/hrmnsio/python/master/kapow/tools.txt -o tools.txt')
+    os.system('curl https://raw.githubusercontent.com/hrmnsio/kapow.py/master/tools.txt -o tools.txt')
     if os.path.isfile('tools.txt'):
         print("[+] installing..")
         os.system('cd ' + home + '/Tools && pwd && xargs -n1 wget < ' + toolstxtLocation)
@@ -84,7 +84,7 @@ else:
     print("\n[-] ERROR: pip.list does not exist")
     # Download pip.list from github repo
     print("[+] Downloading..")
-    os.system('curl https://raw.githubusercontent.com/hrmnsio/python/master/kapow/pip.list -o pip.list')
+    os.system('curl https://raw.githubusercontent.com/hrmnsio/kapow.py/master/pip.list -o pip.list')
     if os.path.isfile('pip.list'):
         print("[+] installing..")
         os.system('xargs -n1 pip3 install < ' + piplistLocation)
