@@ -22,7 +22,7 @@ else:
         os.system('cd ' + home + '/Tools/')
 
 # Update OS
-os.system('sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y')
+os.system('sudo apt update -y && sudo apt full-upgrade -y && sudo apt autoremove -y && sudo apt autoclean -y && sudo apt install curl -y')
 
 # Check if tools.list exists
 if os.path.isfile('tools.list'):
