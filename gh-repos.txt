@@ -1,0 +1,6 @@
+https://github.com/cddmp/enum4linux-ng.git
+https://github.com/SecureAuthCorp/impacket.git
+https://github.com/PowerShellMafia/PowerSploit.git
+https://github.com/carlospolop/PEASS-ng.git
+https://github.com/SpiderLabs/Responder.git
+https://github.com/Ganapati/RsaCtfTool.git

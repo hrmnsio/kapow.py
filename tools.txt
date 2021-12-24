@@ -1,0 +1,5 @@
+https://download.sysinternals.com/files/SysinternalsSuite.zip
+https://github.com/ohpe/juicy-potato/releases/download/v0.1/JuicyPotato.exe
+https://github.com/AlessandroZ/LaZagne/releases/download/2.4.3/lazagne.exe
+https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
+https://github.com/BloodHoundAD/BloodHound/releases/download/4.0.3/BloodHound-linux-x64.zip
