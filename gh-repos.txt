@@ -5,3 +5,4 @@ https://github.com/carlospolop/PEASS-ng.git
 https://github.com/SpiderLabs/Responder.git
 https://github.com/Ganapati/RsaCtfTool.git
 https://github.com/cytopia/smtp-user-enum
+https://github.com/jtesta/ssh-audit.git
