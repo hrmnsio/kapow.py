@@ -8,3 +8,5 @@ https://github.com/cytopia/smtp-user-enum
 https://github.com/jtesta/ssh-audit.git
 https://github.com/CiscoCXSecurity/rdp-sec-check.git
 https://github.com/Hackplayers/evil-winrm
+https://github.com/P0cL4bs/kadimus.git
+https://github.com/D35m0nd142/LFISuite.git
