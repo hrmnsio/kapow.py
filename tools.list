@@ -27,3 +27,4 @@ vim
 tmux
 python3-pip
 braa
+python3-virtualenv
